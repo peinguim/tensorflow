@@ -105,10 +105,10 @@ def unicode_encode(input,
     errors: Specifies the response when a code point that is not a [Unicode
       scalar value](https://www.unicode.org/glossary/#unicode_scalar_value)
       is encountered (optional). One of:
-            * `'replace'`: Replace non-scalar-value with the
-              `replacement_char`. (default)
-            * `'ignore'`: Skip non-scalar-value .
-            * `'strict'`: Raise an exception for any non-scalar-value.
+      * `'replace'`: Replace non-scalar-value with the
+        `replacement_char`. (default)
+      * `'ignore'`: Skip non-scalar-value .
+      * `'strict'`: Raise an exception for any non-scalar-value.
     replacement_char: The replacement character to be used in place of
       any invalid input when `errors='replace'`. Any Unicode scalar value may
       be used. The default value is the default Unicode replacement character
